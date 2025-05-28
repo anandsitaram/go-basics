@@ -66,4 +66,26 @@ func main() {
 	fmt.Println("Account Balance:", accountBalance)
 	fmt.Println("Is Active:", isActive)
 
+	//const declaration
+	const pi = 3.14159
+	fmt.Println("Value of Pi:", pi)
+
+	//pi = 3.14 // This will cause a compile-time error because pi is a constant
+	//fmt.Println("Updated Value of Pi:", pi) // This line will not execute due to the error
+
+	//Variable can be reassigned
+
+	var interestRate2 float64 = 7.0
+	year := 2023
+	fmt.Println("Year:", year)
+	fmt.Println("Interest Rate 2:", interestRate2)
+
+	interestRate2 = 8
+	// year = 2024.5 // This will cause a compile-time error because year is inferred as int
+
+	interestRate2 = 8 // Reassigning a new value
+	year = 2024       // Reassigning a new value
+	fmt.Println("Updated Year:", year)
+	fmt.Println("Updated Interest Rate 2:", interestRate2)
+
 }
