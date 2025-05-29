@@ -14,8 +14,7 @@ func main() {
 	fmt.Scan(&investmentAmount)
 	fmt.Print("Enter Expected Return rate: ")
 	fmt.Scan(&expectedReturnRate)
-
-	fmt.Print("Enter Years: ")
+	fmt.Print("Enter number of years: ")
 	fmt.Scan(&years)
 
 	fmt.Println("Future Value of Investment :", investmentAmount*(1+expectedReturnRate)/100*years)
